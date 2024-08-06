@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>Naming Alleles</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    {# navbar #}
+    
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="/index.html"> <img src="/img/hla_logo.svg" width="50" height="50" fill="#999999" class="hlalogo d-inline-block align-center" alt="HLA Logo" />HLA.Alleles.org</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,9 +70,18 @@
       </div>
     </nav>
 
-    {# Page content #} 
-    {{ content | safe }}
-    {# Footer #}
+     
+    
+<div class="background_naming">
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+    <section class="welcome container py-3">
+      <h1 class="text-center text-dark">Naming Alleles</h1>
+      <h2 class="text-center text-dark">How HLA alleles are named using the HLA nomenclature</h2>
+    </section>
+  </div>
+</div>
+
+    
     <footer class="text-left text-lg-start footer-dark bg py-3">
       <div class="container">
         <section class="">
