@@ -1,5 +1,76 @@
 ---
 layout: base.njk
-title: My Rad Nunjucks Blog Post
+eleventyNavigation:
+  key: "Index"
+  title: Index
+
 ---
-<h1>{{ title }}</h1>  
+
+<div class="background">
+  {# welcome #}
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+    <section class="welcome container py-3">
+      <h1 class="text-center text-dark">Welcome to HLA.Alleles.org</h1>
+      <h2 class="text-center text-dark">A comprehensive online resource offering information on HLA and HLA related genes</h2>
+    </section>
+  </div>
+  {# cards #}
+  <div class="landing_key_pages container d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/nomenclature.png" alt="Nomenclature Favicon" />
+            <h5 class="card-title">Naming Alleles</h5>
+          </div>
+          <p>Describing how an allele is named using the HLA Nomenclature</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/antigen.png" alt="Antigen Favicon" />
+            <h5 class="card-title">Antigens</h5>
+          </div>
+          <p>Tables listing all of the officially recognised HLA antigens, together with any previous official designations.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/genes.png" alt="Genes Favicon" />
+            <h5 class="card-title">Genes</h5>
+          </div>
+          <p>Information for all known HLA and HLA related genes, location on chromosome, function and references.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/g_groups.png" alt="G-group Favicon" />
+            <h5 class="card-title">groups</h5>
+          </div>
+          <p>HLA alleles that have identical nucleotide sequences across the exons encoding the peptide binding domains.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/p_groups.png" alt="P-group Favicon" />
+            <h5 class="card-title">groups</h5>
+          </div>
+          <p>HLA alleles having nucleotide sequences that encode the same protein sequence for the peptide binding domains.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/about.png" alt="About Favicon" />
+            <h5 class="card-title">About</h5>
+          </div>
+          <p>Information on who we are and what we do.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

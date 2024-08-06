@@ -1,12 +1,184 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Rad Nunjucks Blog Post</title>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>My Rad Nunjucks Blog Post</h1>  
+    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="/index.html"> <img src="/img/hla_logo.svg" width="50" height="50" fill="#999999" class="hlalogo d-inline-block align-center" alt="HLA Logo" />HLA.Alleles.org</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/pages/about/index.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nomenclature</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/pages/nomenclature/naming_alleles/index.html">Naming Alleles</a>
+              <a class="dropdown-item" href="/pages/nomenclature/nomenclature_reports/index.html">Nomenclature Reports</a>
+              <a class="dropdown-item" href="/pages/nomenclature/nomenclature_updates/index.html">Nomenclature Updates</a>
+              <a class="dropdown-item" href="/pages/nomenclature/nomenclature_committee/index.html">Nomenclature Committee</a>
+              <a class="dropdown-item" href="/pages/nomenclature/hla_workshops/index.html">HLA Workshop</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genes</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/pages/genes/genes_map/index.html">Genes Map</a>
+              <a class="dropdown-item" href="/pages/genes/genes_list/index.html">Genes List</a>
+              <a class="dropdown-item" href="/pages/genes/n_and_q_alleles/index.html">Null and Questionably expressed alleles</a>
+              <a class="dropdown-item" href="/pages/genes/deleted_and_suffix_changes/index.html">Deleted alleles and suffix changes</a>
+              <a class="dropdown-item" href="/pages/genes/statistics/index.html">Statistics</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Antigens </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item text" href="/pages/antigens/naming_antigens/index.html">Naming Antigens</a>
+              <a class="dropdown-item" href="/pages/antigens/recognised_serology/index.html">Recognised Serology</a>
+              <a class="dropdown-item" href="/pages/antigens/broads_and_splits/index.html">Broads and Splits</a>
+              <a class="dropdown-item" href="/pages/antigens/bw4_bw6/index.html">Bw4 and Bw6</a>
+              <a class="dropdown-item" href="/pages/antigens/previous_equivalents/index.html">Previous equivalents</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown text-light">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WMDA</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/pages/wmda/p_groups/index.html">P Groups</a>
+              <a class="dropdown-item" href="/pages/wmda/g_groups/index.html">G Groups</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown text-light">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/pages/other/hla_dictionary/index.html">HLA Dictionary</a>
+              <a class="dropdown-item" href="/pages/other/definitions/index.html">Definitions</a>
+              <a class="dropdown-item" href="/pages/other/drb_haplotypes/index.html">DRB Haplotypes</a>
+              <a class="dropdown-item" href="/pages/other/citations/index.html">Citations</a>
+              <a class="dropdown-item" href="/pages/other/faq/index.html">FAQ</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     
+    
+<div class="background">
+  
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+    <section class="welcome container py-3">
+      <h1 class="text-center text-dark">Welcome to HLA.Alleles.org</h1>
+      <h2 class="text-center text-dark">A comprehensive online resource offering information on HLA and HLA related genes</h2>
+    </section>
+  </div>
+  
+  <div class="landing_key_pages container d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/nomenclature.png" alt="Nomenclature Favicon" />
+            <h5 class="card-title">Naming Alleles</h5>
+          </div>
+          <p>Describing how an allele is named using the HLA Nomenclature</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/antigen.png" alt="Antigen Favicon" />
+            <h5 class="card-title">Antigens</h5>
+          </div>
+          <p>Tables listing all of the officially recognised HLA antigens, together with any previous official designations.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/genes.png" alt="Genes Favicon" />
+            <h5 class="card-title">Genes</h5>
+          </div>
+          <p>Information for all known HLA and HLA related genes, location on chromosome, function and references.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/g_groups.png" alt="G-group Favicon" />
+            <h5 class="card-title">groups</h5>
+          </div>
+          <p>HLA alleles that have identical nucleotide sequences across the exons encoding the peptide binding domains.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/p_groups.png" alt="P-group Favicon" />
+            <h5 class="card-title">groups</h5>
+          </div>
+          <p>HLA alleles having nucleotide sequences that encode the same protein sequence for the peptide binding domains.</p>
+        </a>
+      </div>
+      <div class="key_page_cards">
+        <a href="#" class="card btn">
+          <div class="card-body">
+            <img class="card-img" src="/img/about.png" alt="About Favicon" />
+            <h5 class="card-title">About</h5>
+          </div>
+          <p>Information on who we are and what we do.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <footer class="text-left text-lg-start footer-dark bg py-3">
+      <div class="container">
+        <section class="">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold text-light">HLA Alleles.org</h6>
+              <a class="text-light" href="#">Copyright © Anthony Nolan Research Institute 2024. Terms of use</a>
+              <ul class="list-unstyled text-light pt-3">
+                <li>Contact us:</li>
+                <li>Tel: +44 (0) 20 7284 8307</li>
+                <li>Email: hla@alleles.org</li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Useful links</h6>
+              <ul class="list-unstyled">
+                <li class="py-2"><a class="text-light" href="#">P-Groups</a></li>
+                <li class="py-2"><a class="text-light" href="#">G-Groups</a></li>
+                <li class="py-2"><a class="text-light" href="#">Antigens</a></li>
+                <li class="py-2"><a class="text-light" href="#">Naming Alleles</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Other Links</h6>
+              <ul class="list-unstyled">
+                <li class="py-2"><a class="text-light" href="#">IPD-IMGT/HLA Database</a></li>
+                <li class="py-2"><a class="text-light" href="#">Github</a></li>
+                <li class="py-2"><a class="text-light" href="#">How to cite us</a></li>
+                <li class="py-2"><a class="text-light" href="#">Sponsors page</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
