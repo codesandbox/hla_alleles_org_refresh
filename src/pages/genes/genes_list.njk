@@ -16,3 +16,21 @@ title: Genes List
     </section>
   </div>
 </div>
+<table class="text-center ml-auto mr-auto">
+  <thead>
+    <tr>
+      <th>Gene</th>
+      <th>Description</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for gene in genes %}
+    <tr>
+      <td><a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a></td>
+      <td>{{ gene.description }}</td>
+      <td>{{ gene.ref }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

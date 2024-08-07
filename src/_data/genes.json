@@ -1,0 +1,21 @@
+[
+    {
+      "gene": "A",
+      "title": "Gene A",
+      "description": "Class I α-chain",
+      "ref": "ref1"
+    },
+    {
+      "gene": "B",
+      "title": "Gene B",
+      "description": "Class I α-chain",
+      "ref": "ref2"
+    },
+    {
+      "gene": "DRB1",
+      "title": "Gene DRB1",
+      "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc.",
+      "ref": "none"
+    }
+  ]
+  

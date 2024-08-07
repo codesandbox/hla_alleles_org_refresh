@@ -1,0 +1,21 @@
+---
+layout: base.njk
+permalink: "/pages/genes/gene_pages/{{ item.gene }}.html"
+pagination:
+  data: genes
+  size: 1
+  alias: item
+---
+
+<div class="background_naming">
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+    <section class="welcome container py-3">
+      <h1 class="text-center text-dark">{{ item.gene }}</h1>
+      <h2 class="text-center text-dark">{{ item.description }}</h2>
+      {% if item.ref != "none" %}
+      <p class="text-center text-dark">Reference: {{ item.ref }}</p>
+      {% endif %}
+    </section>
+  </div>
+</div>
+
