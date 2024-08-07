@@ -1,21 +1,58 @@
 [
-    {
-      "gene": "A",
-      "title": "Gene A",
-      "description": "Class I α-chain",
-      "ref": "ref1"
-    },
-    {
-      "gene": "B",
-      "title": "Gene B",
-      "description": "Class I α-chain",
-      "ref": "ref2"
-    },
-    {
-      "gene": "DRB1",
-      "title": "Gene DRB1",
-      "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc.",
-      "ref": "none"
-    }
-  ]
-  
+  {
+    "gene": "A",
+    "title": "Gene A",
+    "description": "Class I α-chain",
+    "ref": "ref1"
+  },
+  {
+    "gene": "B",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "C",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "E",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "F",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "G",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "H",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "I",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "J",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "K",
+    "description": "Class I α-chain",
+    "ref": "ref2"
+  },
+  {
+    "gene": "DRB1",
+    "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc.",
+    "ref": "none"
+  }
+]
