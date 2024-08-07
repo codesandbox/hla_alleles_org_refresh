@@ -9,6 +9,7 @@
   </head>
   <body>
     {# navbar #}
+    <div class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="/index.html"> <img src="/img/hla_logo.svg" width="50" height="50" fill="#999999" class="hlalogo d-inline-block align-center" alt="HLA Logo" />HLA.Alleles.org</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +72,10 @@
     </nav>
 
     {# Page content #} 
+          <div class="flex-grow-1">
+
     {{ content | safe }}
+    </div>
     {# Footer #}
     <footer class="text-left text-lg-start footer-dark bg py-3">
       <div class="container">
@@ -108,6 +112,7 @@
         </section>
       </div>
     </footer>
+    </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
