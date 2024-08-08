@@ -13,10 +13,10 @@ pagination:
 </div>
 
 <section class="welcome container-fluid py-5">
-  <h1 class="text-center text-dark">{{ item.gene }}</h1>
+  <h1 class="text-center text-dark">HLA-{{ item.gene }} References</h1>
   {% if item.refs and item.refs.length %}
     <div style="overflow-x: auto;">
-      <table class="table table-striped text-center" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+      <table class="table table-striped text-left mt-4" style="width: 100%; max-width: 1200px; margin: 0 auto;">
         <thead>
           <tr>
             <th class="text-nowrap">Allele Name</th>
