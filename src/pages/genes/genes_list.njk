@@ -8,28 +8,30 @@ title: Genes List
 
 ---
 
-  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 40vh">
     <section class="welcome container py-1" >
       <h1 class="text-center text-dark">Genes List</h1>
       <h3 class="text-center text-dark">A Table of Named Genes within the HLA Region</h3>
     </section>
   </div>
-      <table class="table table-striped text-center  mb-5" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+      <table class="table table-striped text-center  mb-5" style="width: 100%; max-width: 1400px; margin: 0 auto;">
   <thead>
     <tr>
-      <th>Gene</th>
-      <th>Description</th>
-      <th>Function</th>
-      <th>Refs</th>
+      <th class="nowrap">Gene</th>
+      <th class="nowrap">Previous Equivalent</th>
+      <th class="nowrap">Description</th>
+      <th class="nowrap">Function</th>
+      <th class="nowrap">Refs</th>
     </tr>
   </thead>
   <tbody>
     {% for gene in genes %}
     <tr>
       <td><a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a></td>
+      <td>{{ gene.previous_equivalent }}</td>
       <td>{{ gene.description }}</td>
       <td>{{ gene.function }}</td>
-      <td><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }}.html</a></td>
+      <td class="nowrap;"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }} Refs</a></td>
     </tr>
     {% endfor %}
   </tbody>
