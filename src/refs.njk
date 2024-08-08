@@ -1,0 +1,53 @@
+---
+layout: base.njk
+permalink: "/pages/genes/gene_refs/{{ item.gene }}_refs.html"
+pagination:
+  data: genes
+  size: 1
+  alias: item
+---
+
+<div class="background_naming">
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 10vh;">
+  </div>
+</div>
+
+<section class="welcome container-fluid py-5">
+  <h1 class="text-center text-dark">{{ item.gene }}</h1>
+  {% if item.refs and item.refs.length %}
+    <div style="overflow-x: auto;">
+      <table class="table table-striped text-center" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+        <thead>
+          <tr>
+            <th>Allele Name</th>
+            <th>Cell ID</th>
+            <th>HLA ID</th>
+            <th>Authors</th>
+            <th>Title</th>
+            <th>Journal</th>
+            <th>Year</th>
+            <th>Vol</th>
+            <th>Pages</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for ref in item.refs %}
+          <tr>
+            <td>{{ ref.alleleName }}</td>
+            <td>{{ ref.cellID }}</td>
+            <td>{{ ref.hlaID }}</td>
+            <td>{{ ref.authors }}</td>
+            <td>{{ ref.title }}</td>
+            <td>{{ ref.journal }}</td>
+            <td>{{ ref.year }}</td>
+            <td>{{ ref.vol }}</td>
+            <td>{{ ref.pages }}</td>
+            <td>{{ ref.contact }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+</section>

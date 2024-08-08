@@ -19,7 +19,7 @@ title: Genes List
     <tr>
       <th>Gene</th>
       <th>Description</th>
-      <th>Reference</th>
+      <th>Function</th>
     </tr>
   </thead>
   <tbody>
@@ -27,7 +27,8 @@ title: Genes List
     <tr>
       <td><a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a></td>
       <td>{{ gene.description }}</td>
-      <td>{{ gene.ref }}</td>
+      <td>{{ gene.function }}</td>
+      <td><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }}.html</a></td>
     </tr>
     {% endfor %}
   </tbody>

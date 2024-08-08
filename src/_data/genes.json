@@ -3,56 +3,165 @@
     "gene": "A",
     "title": "Gene A",
     "description": "Class I α-chain",
-    "ref": "ref1"
+    "function": "Presents peptide antigens to the immune system.",
+    "refs": [
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "LCL721, MOLT-4",
+        "hlaID": "HLA00001",
+        "authors": "-",
+        "title": "-",
+        "journal": "-",
+        "year": "-",
+        "vol": "-",
+        "pages": "-",
+        "contact": "Dr. James Robinson"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "MOLT-4",
+        "hlaID": "HLA00001",
+        "authors": "Girdlestone J",
+        "title": "Nucleotide sequence of an HLA-A1 gene",
+        "journal": "Nucleic Acids Research",
+        "year": "1990",
+        "vol": "18",
+        "pages": "6701-",
+        "contact": "Dr. John Girdlestone"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "LCL721",
+        "hlaID": "HLA00001",
+        "authors": "Parham P, Lomen CE, Lawlor DA, Ways JP, Holmes N, Coppin HL, Salter RD, Wan AM, Ennis PD",
+        "title": "Nature of polymorphism in HLA-A, -B, and -C molecules",
+        "journal": "Proceedings of the National Academy of Sciences USA",
+        "year": "1988",
+        "vol": "85",
+        "pages": "4005-4009",
+        "contact": "Prof. Peter Parham"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "PP",
+        "hlaID": "HLA00001",
+        "authors": "-",
+        "title": "-",
+        "journal": "-",
+        "year": "-",
+        "vol": "-",
+        "pages": "-",
+        "contact": "Prof. Peter Parham"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "LCL721",
+        "hlaID": "HLA00001",
+        "authors": "Laforet M, Froelich N, Parissiadis A, Pfeiffer B, Schell A, Faller B, Woehl-Jaegle ML, Cazenave JP, Tongio MM",
+        "title": "A nucleotide insertion in exon 4 is responsible for the absence of expression of an HLA-A*01 allele",
+        "journal": "Tissue Antigens",
+        "year": "1997",
+        "vol": "50",
+        "pages": "347-350",
+        "contact": "Dr. Michel Laforet"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "LCL721, MOLT-4",
+        "hlaID": "HLA00001",
+        "authors": "-",
+        "title": "-",
+        "journal": "-",
+        "year": "-",
+        "vol": "-",
+        "pages": "-",
+        "contact": "Dr. James Robinson"
+      },
+      {
+        "alleleName": "A*01:01:01:01",
+        "cellID": "MOLT-4",
+        "hlaID": "HLA00001",
+        "authors": "Girdlestone J",
+        "title": "Nucleotide sequence of an HLA-A1 gene",
+        "journal": "Nucleic Acids Research",
+        "year": "1990",
+        "vol": "18",
+        "pages": "6701-",
+        "contact": "Dr. John Girdlestone"
+      }
+    ]
   },
   {
     "gene": "B",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Involved in immune response by presenting intracellular antigens.",
+    "refs": [
+      {
+        "alleleName": "B*07:02:01:01",
+        "cellID": "JY",
+        "hlaID": "HLA00132",
+        "authors": "Ennis PD, Zemmour J, Salter RD, Parham P",
+        "title": "Rapid cloning of HLA-A,B cDNA by using the polymerase chain reaction: frequency and nature of errors produced in amplification",
+        "journal": "Proceedings of the National Academy of Sciences USA",
+        "year": "1990",
+        "vol": "87",
+        "pages": "2833-2837",
+        "contact": "Prof. Peter Parham"
+      }
+    ]
   },
   {
     "gene": "C",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Presents peptides derived from intracellular proteins to cytotoxic T cells.",
+    "refs": []
   },
   {
     "gene": "E",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Modulates the activity of natural killer cells.",
+    "refs": []
   },
   {
     "gene": "F",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Plays a role in immune response and presenting antigenic peptides.",
+    "refs": []
   },
   {
     "gene": "G",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Important for immune tolerance during pregnancy.",
+    "refs": []
   },
   {
     "gene": "H",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Presents peptides to the immune system and modulates immune responses.",
+    "refs": []
   },
   {
     "gene": "I",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Involved in immune regulation and antigen presentation.",
+    "refs": []
   },
   {
     "gene": "J",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Contributes to immune system function by presenting peptides to T cells.",
+    "refs": []
   },
   {
     "gene": "K",
     "description": "Class I α-chain",
-    "ref": "ref2"
+    "function": "Participates in the presentation of antigens to the immune system.",
+    "refs": []
   },
   {
     "gene": "DRB1",
     "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc.",
-    "ref": "none"
+    "function": "Plays a central role in presenting peptides to helper T cells.",
+    "refs": []
   }
 ]
