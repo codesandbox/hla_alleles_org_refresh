@@ -71,6 +71,17 @@
       </div>
     </nav>
 
+{% if not excludeWelcome %}
+<div class="background_naming">
+  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+    <section class="welcome container py-3">
+      <h1 class="text-center text-dark">{{h1}}</h1>
+      <h2 class="text-center text-dark">{{h2}}</h2>
+    </section>
+  </div>
+</div>
+{% endif %}
+
     {# Page content #} 
     <div class="flex-grow-1">
 
