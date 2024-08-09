@@ -10,6 +10,7 @@
   <body>
     {# navbar #}
     <div class="d-flex flex-column min-vh-100">
+    <div class="nav-background">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="/index.html"> <img src="/img/hla_logo.svg" width="50" height="50" fill="#999999" class="hlalogo mr-2 d-inline-block align-center" alt="HLA Logo" />HLA.Alleles.org</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,10 +71,11 @@
         </ul>
       </div>
     </nav>
+    </div>
 
 {% if not excludeWelcome %}
 <div class="background_naming">
-  <div class="welcome d-flex justify-content-center align-items-center" style="height: 50vh">
+  <div class="welcome d-flex justify-content-center align-items-center headingtext">
     <section class="welcome container py-3">
       <h1 class="text-center text-dark">{{h1}}</h1>
       <h2 class="text-center text-dark">{{h2}}</h2>
@@ -88,35 +90,35 @@
     {{ content | safe }}
     </div>
     {# Footer #}
-    <footer class="text-left text-lg-start footer-dark bg py-3">
+    <footer class="text-left text-lg-start footer-dark py-3">
       <div class="container">
         <section class="">
           <div class="row">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold text-light">HLA Alleles.org</h6>
-              <a class="text-light" href="#">Copyright © Anthony Nolan Research Institute 2024. Terms of use</a>
+              <h6 class="text-uppercase mb-4 font-weight-bold text-light">HLA.Alleles.org</h6>
+              <a class="text-light" href="https://www.anthonynolan.org/">Copyright © Anthony Nolan Research Institute 2024. Terms of use</a>
               <ul class="list-unstyled text-light pt-3">
                 <li>Contact us:</li>
-                <li>Tel: +44 (0) 20 7284 8307</li>
+                <li>Tel: +44 (0)20 7284 8307</li>
                 <li>Email: hla@alleles.org</li>
               </ul>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Useful links</h6>
+              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Useful links:</h6>
               <ul class="list-unstyled">
-                <li class="py-2"><a class="text-light" href="#">P-Groups</a></li>
-                <li class="py-2"><a class="text-light" href="#">G-Groups</a></li>
-                <li class="py-2"><a class="text-light" href="#">Antigens</a></li>
-                <li class="py-2"><a class="text-light" href="#">Naming Alleles</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/wmda/p_groups.html">P-Groups</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/wmda/g_groups.html">G-Groups</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/antigens/recognised_serology.html">Antigens</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/nomenclature/naming_alleles.html">Naming Alleles</a></li>
               </ul>
             </div>
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Other Links</h6>
+              <h6 class="text-uppercase text-light mb-4 font-weight-bold">Other Links:</h6>
               <ul class="list-unstyled">
-                <li class="py-2"><a class="text-light" href="#">IPD-IMGT/HLA Database</a></li>
-                <li class="py-2"><a class="text-light" href="#">Github</a></li>
-                <li class="py-2"><a class="text-light" href="#">How to cite us</a></li>
-                <li class="py-2"><a class="text-light" href="#">Sponsors page</a></li>
+                <li class="py-2"><a class="text-light" href="https://www.ebi.ac.uk/ipd/imgt/hla/">IPD-IMGT/HLA Database</a></li>
+                <li class="py-2"><a class="text-light" href="https://github.com/ANHIG/IMGTHLA/">Github</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/other/citations.html">How to cite us</a></li>
+                <li class="py-2"><a class="text-light" href="/pages/other/sponsors.html">Sponsors page</a></li>
               </ul>
             </div>
           </div>
