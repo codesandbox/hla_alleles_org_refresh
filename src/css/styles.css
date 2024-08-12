@@ -16,7 +16,7 @@ margin-bottom: -10vh;
 }
 
 navbar-background-image {
-  background-image: url('/img/full_circle.svg'); /* Replace with your image path */
+  background-image: url('/img/full_circle.svg'); 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
@@ -25,9 +25,9 @@ navbar-background-image {
   top: 50%;
   transform: translateY(-50%);
   height: 100%;
-  width: 100px; /* Adjust width as needed */
-  opacity: 0.8; /* Adjust opacity as needed */
-  pointer-events: none; /* Make the image unclickable */
+  width: 100px; 
+  opacity: 0.8; 
+  pointer-events: none; 
 }
 
 .theadblue {
@@ -72,7 +72,7 @@ navbar-background-image {
 	background-color: #ffffff;
 	border-radius: 5%;
   opacity: 0.95;
-	margin: 1px;
+	margin: 5px;
 }
 
 .key_page_cards p {
