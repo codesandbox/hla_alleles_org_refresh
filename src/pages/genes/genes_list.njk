@@ -22,12 +22,22 @@ h2: A Table of Named Genes within the HLA Region
   <tbody>
     {% for gene in genes %}
     <tr>
-      <td><a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a></td>
+      <td>
+        {% if gene.HLA == 'yes' %}
+          <a href="/pages/genes/gene_pages/{{ gene.gene }}.html">HLA-{{ gene.gene }}</a>
+        {% else %}
+          <a href="/pages/genes/gene_pages/{{ gene.gene }}.html">{{ gene.gene }}</a>
+        {% endif %}
+      </td>
       <td>{{ gene.previous_equivalent }}</td>
       <td>{{ gene.description }}</td>
       <td>{{ gene.function }}</td>
-      <td class="nowrap;"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }} Refs</a></td>
+      {% if gene.HLA == 'yes' %}
+      <td class="text-nowrap"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">HLA-{{ gene.gene }} Refs</a></td>
+      {% else %}
+      <td class="text-nowrap"><a href="/pages/genes/gene_refs/{{ gene.gene }}_refs.html">{{ gene.gene }} Refs</a></td>
+      {% endif %}
     </tr>
     {% endfor %}
-  </tbody>
+</tbody>
 </table>

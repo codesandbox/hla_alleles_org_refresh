@@ -1,8 +1,9 @@
 [
   {
     "gene": "A",
+    "HLA": "yes",
     "previous_equivalent": "-",
-    "description": "Class I α-chain",
+    "description": "HLA class I α-chain",
     "function": "Presents peptide antigens to the immune system",
     "refs": [
       {
@@ -93,8 +94,9 @@
   },
   {
     "gene": "B",
+    "HLA": "yes",
     "previous_equivalent": "-",
-    "description": "Class I α-chain",
+    "description": "HLA class I α-chain",
     "function": "Involved in immune response by presenting intracellular antigens",
     "refs": [
       {
@@ -113,139 +115,159 @@
   },
   {
     "gene": "C",
+    "HLA": "yes",
     "previous_equivalent": "-",
-    "description": "Class I α-chain",
+    "description": "HLA class I α-chain",
     "function": "Presents peptides derived from intracellular proteins to cytotoxic T cells",
     "refs": []
   },
   {
     "gene": "E",
+    "HLA": "yes",
     "previous_equivalent": "E, 6.2",
-    "description": "Class I α-chain associated with class I 6.2-kB Hind III fragment",
+    "description": "HLA class I α-chain associated with HLA class I 6.2-kB Hind III fragment",
     "function": "Modulates the activity of natural killer cells",
     "refs": []
   },
   {
     "gene": "F",
+    "HLA": "yes",
     "previous_equivalent": "F, 5.4",
-    "description": "Class I α-chain associated with class I 5.4-kB Hind III fragment",
+    "description": "HLA class I α-chain associated with HLA class I 5.4-kB Hind III fragment",
     "function": "Plays a role in immune response and presenting antigenic peptides",
     "refs": []
   },
   {
     "gene": "G",
+    "HLA": "yes",
     "previous_equivalent": "G, 6.0",
-    "description": "Class I α-chain associated with class I 6.0-kB Hind III fragment",
+    "description": "HLA class I α-chain associated with HLA class I 6.0-kB Hind III fragment",
     "function": "Important for immune tolerance during pregnancy",
     "refs": []
   },
   {
     "gene": "H",
+    "HLA": "yes",
     "previous_equivalent": "H, AR, 12.4",
-    "description": "Class I pseudogene associated with 5.4-kB Hind III fragment",
+    "description": "HLA class I pseudogene associated with 5.4-kB Hind III fragment",
     "function": "Presents peptides to the immune system and modulates immune responses",
     "refs": []
   },
   {
     "gene": "J",
+    "HLA": "yes",
     "previous_equivalent": "cda12",
-    "description": "Class I pseudogene associated with 5.9-kB Hind III fragment",
+    "description": "HLA class I pseudogene associated with 5.9-kB Hind III fragment",
     "function": "Contributes to immune system function by presenting peptides to T cells",
     "refs": []
   },
   {
     "gene": "K",
+    "HLA": "yes",
     "previous_equivalent": "HLA-70",
-    "description": "Class I pseudogene associated with 7.0-kB Hind III fragment",
+    "description": "HLA class I pseudogene associated with 7.0-kB Hind III fragment",
     "function": "Participates in the presentation of antigens to the immune system",
     "refs": []
   },
   {
     "gene": "L",
+    "HLA": "yes",
     "previous_equivalent": "HLA-92",
-    "description": "Class I pseudogene associated with 9.2-kB Hind III fragment",
+    "description": "HLA class I pseudogene associated with 9.2-kB Hind III fragment",
     "function": "Plays a role in immune system regulation",
     "refs": []
   },
   {
     "gene": "N",
+    "HLA": "yes",
     "previous_equivalent": "HLA-30",
-    "description": "Class I gene fragment associated with a 1.7-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with a 1.7-kB Hind III fragment",
     "function": "Contributes to the immune response through antigen presentation",
     "refs": []
   },
   {
     "gene": "P",
+    "HLA": "yes",
     "previous_equivalent": "HLA-90",
-    "description": "Class I gene fragment associated with 9.0-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with 9.0-kB Hind III fragment",
     "function": "Involved in the modulation of immune responses",
     "refs": []
   },
   {
     "gene": "R",
+    "HLA": "yes",
     "previous_equivalent": "HLA-OLI",
-    "description": "Class I gene fragment",
+    "description": "HLA class I gene fragment",
     "function": "Associated with immune system function and antigen presentation",
     "refs": []
   },
   {
     "gene": "S",
+    "HLA": "yes",
     "previous_equivalent": "HLA-17",
-    "description": "Class I gene fragment associated with a 3.0-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with a 3.0-kB Hind III fragment",
     "function": "Contributes to the presentation of intracellular antigens",
     "refs": []
   },
   {
     "gene": "T",
+    "HLA": "yes",
     "previous_equivalent": "HLA-16",
-    "description": "Class I gene fragment associated with 16.0-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with 16.0-kB Hind III fragment",
     "function": "Plays a role in the immune system's response to pathogens",
     "refs": []
   },
   {
     "gene": "U",
+    "HLA": "yes",
     "previous_equivalent": "HLA-21",
-    "description": "Class I gene fragment associated with 2.1-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with 2.1-kB Hind III fragment",
     "function": "Involved in the modulation of immune responses",
     "refs": []
   },
   {
     "gene": "V",
+    "HLA": "yes",
     "previous_equivalent": "HLA-75",
-    "description": "Class I gene fragment associated with 7.5-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with 7.5-kB Hind III fragment",
     "function": "Plays a role in immune system function",
     "refs": []
   },
   {
     "gene": "W",
+    "HLA": "yes",
     "previous_equivalent": "HLA-80",
-    "description": "Class I gene fragment associated with 8.0-kB Hind III fragment",
+    "description": "HLA class I gene fragment associated with 8.0-kB Hind III fragment",
     "function": "Associated with antigen processing and presentation",
     "refs": []
   },
   {
     "gene": "X",
+    "HLA": "yes",
     "previous_equivalent": "HLA-X",
-    "description": "Class I gene fragment",
+    "description": "HLA class I gene fragment",
     "function": "Contributes to immune system function",
     "refs": []
   },
   {
     "gene": "Y",
+    "HLA": "yes",
     "previous_equivalent": "HLA-BEL/COQ/DEL",
-    "description": "Class I pseudogene",
+    "description": "HLA class I pseudogene",
     "function": "Participates in immune regulation",
     "refs": []
   },
   {
     "gene": "Z",
+    "HLA": "yes",
     "previous_equivalent": "HLA-Z1",
-    "description": "Class I gene fragment located within the HLA Class II region",
+    "description": "HLA class I gene fragment located within the HLA HLA class II region",
     "function": "Involved in antigen presentation to the immune system",
     "refs": []
   },
   {
     "gene": "DRA",
+    "HLA": "yes",
     "previous_equivalent": "DRα",
     "description": "DR α-chain",
     "function": "Involved in the presentation of peptides to T cells",
@@ -253,6 +275,7 @@
   },
   {
     "gene": "DRB1",
+    "HLA": "yes",
     "previous_equivalent": "DRβI, DR1B",
     "description": "DR β1-chain determining specificities DR1, DR2, DR3, DR4, DR5 etc",
     "function": "Plays a critical role in presenting antigens to helper T cells",
@@ -260,6 +283,7 @@
   },
   {
     "gene": "DRB2",
+    "HLA": "yes",
     "previous_equivalent": "DRβII",
     "description": "Pseudogene with DR β-like sequences",
     "function": "Non-functional gene related to immune response",
@@ -267,6 +291,7 @@
   },
   {
     "gene": "DRB3",
+    "HLA": "yes",
     "previous_equivalent": "DRβIII, DR3B",
     "description": "DR β3-chain determining DR52 and Dw24, Dw25, Dw26 specificities",
     "function": "Involved in antigen presentation and immune response",
@@ -274,6 +299,7 @@
   },
   {
     "gene": "DRB4",
+    "HLA": "yes",
     "previous_equivalent": "DRβIV, DR4B",
     "description": "DR β4-chain determining DR53",
     "function": "Plays a role in presenting antigens to T cells",
@@ -281,6 +307,7 @@
   },
   {
     "gene": "DRB5",
+    "HLA": "yes",
     "previous_equivalent": "DRβIII",
     "description": "DR β5-chain determining DR51",
     "function": "Involved in immune system's ability to recognize foreign molecules",
@@ -288,6 +315,7 @@
   },
   {
     "gene": "DRB6",
+    "HLA": "yes",
     "previous_equivalent": "DRBX, DRBσ",
     "description": "DRB pseudogene found on DR1, DR2 and DR10 haplotypes",
     "function": "Non-functional gene related to the DRB family",
@@ -295,6 +323,7 @@
   },
   {
     "gene": "DRB7",
+    "HLA": "yes",
     "previous_equivalent": "DRBψ1",
     "description": "DRB pseudogene found on DR4, DR7 and DR9 haplotypes",
     "function": "Non-functional gene related to the DRB family",
@@ -302,6 +331,7 @@
   },
   {
     "gene": "DRB8",
+    "HLA": "yes",
     "previous_equivalent": "DRBψ2",
     "description": "DRB pseudogene found on DR4, DR7 and DR9 haplotypes",
     "function": "Non-functional gene related to the DRB family",
@@ -309,6 +339,7 @@
   },
   {
     "gene": "DRB9",
+    "HLA": "yes",
     "previous_equivalent": "M4.2 β exon",
     "description": "DRB pseudogene, isolated fragment",
     "function": "Non-functional gene fragment related to DRB",
@@ -316,6 +347,7 @@
   },
   {
     "gene": "DQA1",
+    "HLA": "yes",
     "previous_equivalent": "DQα1, DQ1A",
     "description": "DQ α-chain as expressed",
     "function": "Involved in presenting antigens to the immune system",
@@ -323,6 +355,7 @@
   },
   {
     "gene": "DQB1",
+    "HLA": "yes",
     "previous_equivalent": "DQβ1, DQ1B",
     "description": "DQ β-chain as expressed",
     "function": "Works with DQα to present antigens to T cells",
@@ -330,6 +363,7 @@
   },
   {
     "gene": "DQA2",
+    "HLA": "yes",
     "previous_equivalent": "DXα, DQ2A",
     "description": "DQ α-chain-related sequence",
     "function": "Related to antigen presentation, but not as widely expressed",
@@ -337,6 +371,7 @@
   },
   {
     "gene": "DQB2",
+    "HLA": "yes",
     "previous_equivalent": "DXβ, DQ2B",
     "description": "DQ β-chain-related sequence",
     "function": "Related to immune function and antigen presentation",
@@ -344,6 +379,7 @@
   },
   {
     "gene": "DQB3",
+    "HLA": "yes",
     "previous_equivalent": "DVβ, DQB3",
     "description": "DQ β-chain-related sequence, not known to be expressed",
     "function": "Potentially involved in immune response",
@@ -351,34 +387,39 @@
   },
   {
     "gene": "DOA",
+    "HLA": "yes",
     "previous_equivalent": "DZα, DOα, DNA",
     "description": "DO α-chain",
-    "function": "Involved in the regulation of MHC class II expression",
+    "function": "Involved in the regulation of MHC HLA class II expression",
     "refs": []
   },
   {
     "gene": "DOB",
+    "HLA": "yes",
     "previous_equivalent": "DOβ",
     "description": "DO β-chain",
-    "function": "Regulates the activity of other MHC class II molecules",
+    "function": "Regulates the activity of other MHC HLA class II molecules",
     "refs": []
   },
   {
     "gene": "DMA",
+    "HLA": "yes",
     "previous_equivalent": "RING6",
     "description": "DM α-chain",
-    "function": "Involved in the processing and presentation of peptides by MHC class II",
+    "function": "Involved in the processing and presentation of peptides by MHC HLA class II",
     "refs": []
   },
   {
     "gene": "DMB",
+    "HLA": "yes",
     "previous_equivalent": "RING7",
     "description": "DM β-chain",
-    "function": "Functions in peptide editing for MHC class II presentation",
+    "function": "Functions in peptide editing for MHC HLA class II presentation",
     "refs": []
   },
   {
     "gene": "DPA1",
+    "HLA": "yes",
     "previous_equivalent": "DPα1, DP1A",
     "description": "DP α-chain as expressed",
     "function": "Works with DPβ to present peptides to the immune system",
@@ -386,6 +427,7 @@
   },
   {
     "gene": "DPB1",
+    "HLA": "yes",
     "previous_equivalent": "DPβ1, DP1B",
     "description": "DP β-chain as expressed",
     "function": "Crucial for the presentation of antigens to helper T cells",
@@ -393,6 +435,7 @@
   },
   {
     "gene": "DPA2",
+    "HLA": "yes",
     "previous_equivalent": "DPα2, DP2A",
     "description": "DP α-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
@@ -400,6 +443,7 @@
   },
   {
     "gene": "DPB2",
+    "HLA": "yes",
     "previous_equivalent": "DPβ2, DP2B",
     "description": "DP β-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
@@ -407,6 +451,7 @@
   },
   {
     "gene": "DPA3",
+    "HLA": "yes",
     "previous_equivalent": "DPA3",
     "description": "DP α-chain-related pseudogene",
     "function": "Related to immune response, but not expressed",
@@ -414,13 +459,15 @@
   },
   {
     "gene": "HFE",
+    "HLA": "no",
     "previous_equivalent": "High Fe",
-    "description": "Class I-like gene",
+    "description": "HLA class I-like gene",
     "function": "Regulates iron absorption in the body",
     "refs": []
   },
   {
     "gene": "TAP1",
+    "HLA": "no",
     "previous_equivalent": "ABCB2, RING4, Y3, PSF1",
     "description": "ABC (ATP Binding Cassette) transporter",
     "function": "Involved in peptide transport across the endoplasmic reticulum membrane",
@@ -428,6 +475,7 @@
   },
   {
     "gene": "TAP2",
+    "HLA": "no",
     "previous_equivalent": "ABCB3, RING11, Y1, PSF2",
     "description": "ABC (ATP Binding Cassette) transporter",
     "function": "Works with TAP1 in antigen processing",
@@ -435,6 +483,7 @@
   },
   {
     "gene": "PSMB9",
+    "HLA": "no",
     "previous_equivalent": "LMP2, RING12",
     "description": "Proteasome-related sequence",
     "function": "Involved in the degradation of proteins, essential for antigen processing",
@@ -442,43 +491,49 @@
   },
   {
     "gene": "PSMB8",
+    "HLA": "no",
     "previous_equivalent": "LMP7, RING10",
     "description": "Proteasome-related sequence",
-    "function": "Crucial for the production of peptides presented by MHC class I",
+    "function": "Crucial for the production of peptides presented by MHC HLA class I",
     "refs": []
   },
   {
     "gene": "MICA",
+    "HLA": "no",
     "previous_equivalent": "MICA, PERB11.1",
-    "description": "Class I chain-related gene",
+    "description": "HLA class I chain-related gene",
     "function": "Involved in the activation of natural killer cells and certain T cells",
     "refs": []
   },
   {
     "gene": "MICB",
+    "HLA": "no",
     "previous_equivalent": "MICB, PERB11.2",
-    "description": "Class I chain-related gene",
+    "description": "HLA class I chain-related gene",
     "function": "Works with MICA in immune response activation",
     "refs": []
   },
   {
     "gene": "MICC",
+    "HLA": "no",
     "previous_equivalent": "MICC, PERB11.3",
-    "description": "Class I chain-related pseudogene",
+    "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
     "refs": []
   },
   {
     "gene": "MICD",
+    "HLA": "no",
     "previous_equivalent": "MICD, PERB11.4",
-    "description": "Class I chain-related pseudogene",
+    "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
     "refs": []
   },
   {
     "gene": "MICE",
+    "HLA": "no",
     "previous_equivalent": "MICE, PERB11.5",
-    "description": "Class I chain-related pseudogene",
+    "description": "HLA class I chain-related pseudogene",
     "function": "Non-functional gene related to MICA/MICB",
     "refs": []
   }
