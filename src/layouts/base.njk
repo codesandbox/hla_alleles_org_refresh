@@ -75,22 +75,22 @@
       </div>
     </nav>
     </div>
+    <div class="container mb-5">
+      {% if not excludeWelcome %}
+      <div class="background_naming">
+        <div class="welcome d-flex justify-content-center align-items-center headingtext">
+          <div class="py-3">
+            <h1 class="text-center text-dark">{{h1}}</h1>
+            <h2 class="text-center text-dark">{{h2}}</h2>
+          </div>
+        </div>
+      </div>
+      {% endif %}
 
-{% if not excludeWelcome %}
-<div class="background_naming">
-  <div class="welcome d-flex justify-content-center align-items-center headingtext">
-    <section class="welcome container py-3">
-      <h1 class="text-center text-dark">{{h1}}</h1>
-      <h2 class="text-center text-dark">{{h2}}</h2>
-    </section>
-  </div>
-</div>
-{% endif %}
-
-    {# Page content #} 
-    <div class="flex-grow-1">
-
-    {{ content | safe }}
+      {# Page content #} 
+      <div class="flex-grow-1">
+        {{ content | safe }}
+      </div>
     </div>
     {# Footer #}
     <footer class="text-left text-lg-start footer-dark py-3">

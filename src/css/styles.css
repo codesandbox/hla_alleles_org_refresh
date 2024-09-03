@@ -10,9 +10,9 @@ body {
 	background: #ffffff;
 }
 
-.headingtext {
-height: 50vh;
-margin-bottom: -10vh;
+.welcome {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 
 navbar-background-image {
@@ -71,7 +71,7 @@ navbar-background-image {
 	border-color: grey;
 	background-color: #ffffff;
 	border-radius: 5%;
-  opacity: 0.95;
+  	opacity: 0.95;
 	margin: 5px;
 }
 
