@@ -103,6 +103,7 @@ h5 {
 
 footer {
 	background-image: linear-gradient(180deg, #0047ab, #013c8e);
+	margin-top: auto;
 }
 
 .btn {

@@ -1,0 +1,20 @@
+{% macro table(headers, rows) %}
+    <table class="table table-striped text-left my-3">
+        <thead class="theadblue">
+            <tr>
+                {% for header in headers %}
+                    <th class="text-light">{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    {% for cell in row %}
+                        <td>{{ cell }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endmacro %}

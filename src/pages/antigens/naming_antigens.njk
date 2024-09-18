@@ -9,25 +9,26 @@ h1: Naming Antigens
 h2: How HLA Antigens are named
 ---
 
-<div class="container mb-3">
-  Following the 1st International Histocompatibility Workshop in Durham, North Carolina, USA in 1965, it was decided there was a need for a standardised nomenclature for the serologically defined leucocyte antigens [1]. A committee was formed, and following the 2nd Histocompatibility Workshop in 1967, an announcement was made indicating that the term ‘HL-A’ would be used to indicate the major system of leucocyte antigens [2]. The first full HLA Nomenclature Report was published the following year, 1968, and documented the naming of the first eight HLA antigens or HL-A antigens as they were then termed [3]. The name HLA replaced HL-A in 1975, when it was understood that the products of two different genes had been identified. Thus HL-A became HLA-A and HLA-B.
-</div>
-<div class="container mb-3">
-Since that time the WHO Nomenclature Committee for Factors of the HLA System has met regularly and following the International Histocompatibility Workshops assigned official names to HLA antigens, once there was sufficient evidence for their existence [4-11]. The tables given here list all of the officially recognised HLA antigens, together with any previous official designations, and the date the antigen was first officially assigned. In some cases the dates given are approximate as exact dates are unavailable. We also list the many local designations used by different laboratories prior to their receiving an official name. Many of the early investigators used their own prefixes to a number series. Bernard Amos (Ao), Richard Batchelor (Bt), Ruggero Ceppellini (To), Jean Dausset (Da), Paul Engelfriet (CLB), Michel Jeannet (GE), Rose Payne & Walter Bodmer (LA), Jon van Rood (4 & 7), Paul Terasaki (Te) and Roy Walford (Lc-).
-</div>
-<div class="container mb-5">
-  <h3 >References:</h3>
-  <ol >
-   <li>Histocompatibility Testing 1965, Munksgaard, Copenhagen, Denmark, 1966, 283</li>
-   <li>Histocompatibility Testing 1967, Munksgaard, Copenhagen, Denmark, 1967, 29</li>
-   <li>WHO Nomenclature Committee. Nomenclature for Factors of the HL-A System, Bull Wld Hlth Org 1968 39 483-6</li>
-   <li>WHO Nomenclature Committee. WHO Terminology Report. In: PI Terasaki ed. Histocompatibility Testing, 1970, Copenhagen: Munksgaard, 1970: 49.</li>
-   <li>WHO Nomenclature Committee. WHO Terminology Report. Bull Wld Hlth Org 1972 47 659-62.</li>
-   <li>WHO IUIS Terminology Committee. Nomenclature for Factors of the HLA System. Bull Wld Hlth Org 1975 52 261.</li>
-   <li>WHO Nomenclature Committee. Nomenclature for Factors of the HLA System, 1977. Bull Wld Hlth Org 1978 56 461-5.</li>
-   <li>WHO Nomenclature Committee. Nomenclature for Factors of the HLA System, 1980. In: PI Terasaki ed. Histocompatibility Testing, 1980, Los Angeles: UCLA Tissue Typing Laboratory, 1980: 18-20.</li>
-   <li>WHO Nomenclature Committee. Nomenclature for Factors of the HLA System 1984. In: ED Albert, MP Baur and WR Mayr ed. Histocompatibility Testing, 1984, Berlin: Springer-Verlag, 1985: 4-8.</li>
-   <li>Bodmer JG, Marsh SGE, Albert E, Bodmer WF, Dupont B, Erlich HA, Mach B, Mayr WR, Parham P, Sasasuki T, Schreuder GMT, Strominger JL, Svejgaard A, Terasaki PI. Nomenclature for Factors of the HLA System, 1991. In: T Tsuji, M Aizawa and T Sasazuki ed. HLA 1991, Oxford: Oxford University Press, 1992:17-31.</li>
-   <li>Bodmer JG, Marsh SGE, Albert ED, Bodmer WF, Bontrop RE, Charron D, Dupont B, Erlich HA, Fauchet R, Mach B, Mayr WR, Parham P, Sasasuki T, Schreuder GMT, Strominger JL, Svejgaard A, Terasaki PI. Nomenclature for Factors of the HLA System, 1996. Tissue Antigens. 1997 49 297-321.</li>
-  </ol>
-</div>
+
+{% from "src/components/paragraph.njk" import paragraph %}
+{{ paragraph("Following the 1st International Histocompatibility Workshop in Durham, North Carolina, USA in 1965, it was decided there was a need for a standardised nomenclature for the serologically defined leucocyte antigens [1]. A committee was formed, and following the 2nd Histocompatibility Workshop in 1967, an announcement was made indicating that the term ‘HL-A’ would be used to indicate the major system of leucocyte antigens [2]. The first full HLA Nomenclature Report was published the following year, 1968, and documented the naming of the first eight HLA antigens or HL-A antigens as they were then termed [3]. The name HLA replaced HL-A in 1975, when it was understood that the products of two different genes had been identified. Thus HL-A became HLA-A and HLA-B.") }}
+{{ paragraph("Since that time the WHO Nomenclature Committee for Factors of the HLA System has met regularly and following the International Histocompatibility Workshops assigned official names to HLA antigens, once there was sufficient evidence for their existence [4-11]. The tables given here list all of the officially recognised HLA antigens, together with any previous official designations, and the date the antigen was first officially assigned. In some cases the dates given are approximate as exact dates are unavailable. We also list the many local designations used by different laboratories prior to their receiving an official name. Many of the early investigators used their own prefixes to a number series. Bernard Amos (Ao), Richard Batchelor (Bt), Ruggero Ceppellini (To), Jean Dausset (Da), Paul Engelfriet (CLB), Michel Jeannet (GE), Rose Payne & Walter Bodmer (LA), Jon van Rood (4 & 7), Paul Terasaki (Te) and Roy Walford (Lc-).") }}
+
+{% from "src/components/list.njk" import list %}
+
+{% from "src/components/list.njk" import list %}
+
+  <h3>References:</h3>
+  {{ list([
+      "Histocompatibility Testing 1965, Munksgaard, Copenhagen, Denmark, 1966, 283",
+      "Histocompatibility Testing 1967, Munksgaard, Copenhagen, Denmark, 1967, 29",
+      "WHO Nomenclature Committee. Nomenclature for Factors of the HL-A System, Bull Wld Hlth Org 1968 39 483-6",
+      "WHO Nomenclature Committee. WHO Terminology Report. In: PI Terasaki ed. Histocompatibility Testing, 1970, Copenhagen: Munksgaard, 1970: 49.",
+      "WHO Nomenclature Committee. WHO Terminology Report. Bull Wld Hlth Org 1972 47 659-62.",
+      "WHO IUIS Terminology Committee. Nomenclature for Factors of the HLA System. Bull Wld Hlth Org 1975 52 261.",
+      "WHO Nomenclature Committee. Nomenclature for Factors of the HLA System, 1977. Bull Wld Hlth Org 1978 56 461-5.",
+      "WHO Nomenclature Committee. Nomenclature for Factors of the HLA System, 1980. In: PI Terasaki ed. Histocompatibility Testing, 1980, Los Angeles: UCLA Tissue Typing Laboratory, 1980: 18-20.",
+      "WHO Nomenclature Committee. Nomenclature for Factors of the HLA System 1984. In: ED Albert, MP Baur and WR Mayr ed. Histocompatibility Testing, 1984, Berlin: Springer-Verlag, 1985: 4-8.",
+      "Bodmer JG, Marsh SGE, Albert E, Bodmer WF, Dupont B, Erlich HA, Mach B, Mayr WR, Parham P, Sasasuki T, Schreuder GMT, Strominger JL, Svejgaard A, Terasaki PI. Nomenclature for Factors of the HLA System, 1991. In: T Tsuji, M Aizawa and T Sasazuki ed. HLA 1991, Oxford: Oxford University Press, 1992:17-31.",
+      "Bodmer JG, Marsh SGE, Albert ED, Bodmer WF, Bontrop RE, Charron D, Dupont B, Erlich HA, Fauchet R, Mach B, Mayr WR, Parham P, Sasasuki T, Schreuder GMT, Strominger JL, Svejgaard A, Terasaki PI. Nomenclature for Factors of the HLA System, 1996. Tissue Antigens. 1997 49 297-321."
+    ], true) }}
