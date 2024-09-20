@@ -1,0 +1,130 @@
+---
+layout: base.njk
+permalink: /pages/wmda/wmda.html
+eleventyNavigation:
+  parent: "WMDA"
+  key: "WMDA"
+title: WMDA
+h1: WMDA Directory
+p: HLA Nomenclature in WMDA file format
+---
+
+{% from "src/components/paragraph.njk" import paragraph %}
+{% from "src/components/list.njk" import list %}
+{% from "src/components/table.njk" import table %}
+
+{{ paragraph('At the request of the IT Working Group of the World Marrow Donor Association (WMDA), we are making a number of computer readable files available. These files will document the official WHO HLA Nomenclature, the relationships between serologically defined antigens, and the relationships between HLA allele sequences and their serologically defined antigens. Updated versions of these files will be released every three months, at the same time as new versions of the IMGT/HLA Database become available.') }}
+{{ paragraph('All five files have a short header with four lines of information, indicating:') }}
+
+{{ list([
+      "File Name",
+      "Date file produced (YYYY-MM-DD)",
+      "Origin of file (URL)",
+      "Author"
+    ], false) }}
+
+{{ paragraph('hla_nom.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/hla_nom.txt">hla_nom.txt</a> file here) ') }}
+{{ paragraph('This file contains details of all current and deleted HLA antigens and alleles, and is sorted by locus and antigen/allele number:') }}
+
+{{ list([
+      "HLA Locus",
+      "HLA Antigen or Allele name",
+      "Date assigned (YYYYMMDD)",
+      "Date deleted, if the name has now been abandoned (YYYYMMDD)",
+      "Antigen or Allele that the deleted allele was shown to be identical to",
+      "Reason for the Antigen or Allele to be deleted"
+    ], false) }}
+
+{{ paragraph('Please note that for HLA Antigen names assigned before November 1987, the dates given are only approximate.') }}
+{{ paragraph('This file includes six fields of information, each separated by a semi-colon (;).') }}
+
+
+{% set headers = ["HLA Locus", "HLA Antigen or Alllele name", "Date Assigned (YYYYMMDD)", "Date Deleted (YYYYMMDD)", "Deleted Antigen/Allele Identical to", "Reason for Deletion"] %}
+{% set rows = [
+    ["A", "1", "19680101", "", "", ""],
+    ["A*", "0105N", "19990216", "20010717", "01:04N", "Sequence Identical"]
+] %}
+{{ table(headers, rows) }}
+
+{{ paragraph('hla_nom_g.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/hla_nom_p.txt">hla_nom_p.txt</a> file here)') }}
+{{ paragraph('HLA alleles that have identical nucleotide sequences across the exons encoding the peptide binding domains (exon 2 and 3 for HLA class I and exon 2 only for HLA class II alleles) will be designated by an upper case ‘G’ which follows the first 3 fields of the allele designation of the lowest numbered allele in the group. The full list of these groups is available at the G Groups page. A computer readable version is also available, this file includes three fields of information, each separated by a semi-colon (;).') }}
+
+{% set headers = ["HLA Locus", "Alleles within designated group", "G group name (if available)"] %}
+{% set rows = [
+    ["A*", "01:01:01:01/01:01:01:02N/01:04N/01:22N/01:32/01:34N/01:37/01:45", "01:01:01G"],
+    ["A*", "01:01:02", ""]
+] %}
+{{ table(headers, rows) }}
+
+{{ paragraph('Please note that several DRB alleles are not sequenced for the dimorphic nucleotide at position 357. It would therefore be inaccurate to assign a base to these sequences at this position. For this reason the sequences have been truncated to include only nucleotides 101 to 356, in the DRB analysis.') }}
+{{ paragraph('hla_nom_p.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/hla_nom_g.txt">hla_nom_g.txt</a> file here)') }}
+{{ paragraph('This file contains details of all HLA Sequences having the same antigen binding domains. This analysis is performed on the polypeptide sequence, and for HLA Class I alleles, identity in the "antigen binding domains" is based on identical protein sequences as encoded by exons 2 and 3. For HLA Class II alleles this is based on identical protein sequences as encoded by exon 2. HLA alleles having nucleotide sequences that encode the same protein sequence for the peptide binding domains (exon 2 and 3 for HLA class I and exon 2 only for HLA class II alleles) will be designated by an upper case P which follows the 2 field allele designation of the lowest numbered allele in the group. The full list of these groups is available at the P Groups page. A computer readable version is also available, this file replaces the file previously called abdm.txt and includes three fields of information, each separated by a semi-colon (;).') }}
+
+{% set headers = ["HLA Locus", "Alleles within designated group", "P group name (if available)"] %}
+{% set rows = [
+    ["A*", "01:01:01:01/01:01:02/01:01:03/01:01:04/01:01:05/01:01:06/01:01:07/01:01:08/01:01:09/01:01:10/01:01:11/01:01:12/01:01:13/01:32/01:37/01:45", "01:01P"],
+    ["A*", "01:02", ""]
+] %}
+{{ table(headers, rows) }}
+
+{{ paragraph('Several DRB alleles are not sequenced for the dimorphic nucleotide at position 357. It would therefore be inaccurate to assign a base to these sequences at this position. For this reason the sequences have been truncated to include only the translated sequence of nucleotides 101 to 356, in the DRB analysis.') }}
+{{ paragraph('rel_ser_ser.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/rel_ser_ser.txt">rel_ser_ser.txt</a> file here)') }}
+{{ paragraph('This file lists the relationships between all current serologically defined HLA antigens: broad antigens, split antigens and associated antigens.') }}
+
+{{ list([
+      "HLA Locus",
+      "HLA Antigen name",
+      "Split Antigen",
+      "Associated Antigen"
+    ], false) }}
+
+{{ paragraph('This file includes four fields of information, each separated by a semi-colon (;). The file lists only those antigens for which split or associated antigens exist. Multiple values are separated by a forward slash (/).') }}
+
+{% set headers = ["HLA Locus", "HLA Antigen name (digits only)", "Split HLA Antigens", "Associated HLA Antigens"] %}
+{% set rows = [
+    ["A", "2", "", "203/210"],
+    ["A", "9", "23/24", ""],
+    ["A", "10", "25/26/34/66", ""]
+] %}
+{{ table(headers, rows) }}
+
+{{ paragraph('rel_dna_ser.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/rel_dna_ser.txt">rel_dna_ser.txt</a> file here)') }}
+{{ paragraph('This file contains details of all current HLA alleles and where known their unambiguous, possible or assumed serologically equivalent antigens.') }}
+{{ paragraph('Details of the unambiguous serology is defined from submissions to the WHO Nomenclature Committee for Factors of the HLA System (1) at the time an allele is submitted for naming, or from the WMDA HLA Dictionary 2008 (2). For Null alleles a value of zero (0) is given and for alleles with no corresponding antigen a question mark (?) is given.') }}
+{{ paragraph('In cases where an allele has been shown to be associated with more than one serologically defined antigen, these are indicated in the "Possible Serology" field. Multiple values are separated by a forward slash (/). In cases where there is currently no information about the serological equivalent of an allele, the "Assumed Serology" field contains the antigen equivalent as expected by the first two digits of the allele name.') }}
+{{ paragraph('This file contains details of all current HLA antigens and alleles, and is sorted by locus and allele number:') }}
+
+{{ list([
+      "HLA Locus",
+      "HLA Allele name",
+      "Unambiguous Serological Antigen associated with allele",
+      "Possible Serological Antigen associated with allele",
+      "Assumed Serological Antigen associated with allele",
+      "Expert assigned exceptions in search determinants of some registries"
+    ], false) }}
+
+{{ paragraph('This file includes six fields of information, each separated by a semi-colon (;).') }}
+
+{% set headers = ["HLA Locus", "HLA Antigen/ Allele name", "Unambiguous Serology", "Possible Serology", "Assumed Serology", "Expert Assigned Exceptions"] %}
+{% set rows = [
+    ["A*", "01:01:01", "1", "", "", ""],
+    ["A*", "01:04N", "0", "", "", ""],
+    ["A*", "01:10", "", "", "1", ""],
+    ["A*", "02:01:01:02:", "", "0/2", "", ""],
+    ["A*", "02:03:01", "203", "", "", ""],
+    ["B*", "13:04", "", "15/21", "", "13"],
+    ["B*", "83:01", "?", "", "", ""]
+] %}
+{{ table(headers, rows) }}
+
+{{ paragraph('md5checksum.txt (Download the <a href="https://raw.githubusercontent.com/ANHIG/IMGTHLA/Latest/wmda/md5checksum.txt">md5checksum.txt</a> file here)') }}
+{{ paragraph('This file contains an md5 fingerprint for each file allowing verification of the downloads.') }}
+{{ paragraph('The release archive is now maintained as a git repository and available at https://github.com/ANHIG/IMGTHLA. This repository contains a branch for each database release and a Latest branch which contains the most recent files as well as all compressed archives.') }}
+
+{{ list([
+      "SGE Marsh, ED Albert, WF Bodmer, et al. Nomenclature for Factors of the HLA System, 2010.",
+      "Tissue Antigens (2010) 75 291-455",
+      "International Journal of Immunogenetics. 2005 32:107-60",
+      "Human Immunology. 2005 66:571-636",
+      "Click <a href='https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1399-0039.2010.01466.x'>here</a> to download a copy of this report as published in Tissue Antigens, available courtesy of Wiley Blackwell."
+    ], false) }}

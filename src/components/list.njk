@@ -2,13 +2,13 @@
     {% if isOrdered %}
         <ol>
             {% for item in items %}
-                <li>{{ item }}</li>
+                <li>{{ item | safe }}</li>
             {% endfor %}
         </ol>
     {% else %}
         <ul>
             {% for item in items %}
-                <li>{{ item }}</li>
+                <li>{{ item | safe }}</li>
             {% endfor %}
         </ul>
     {% endif %}
