@@ -10,7 +10,7 @@ This project focuses on redesigning the HLA.alleles.org website, a global reposi
 
 ## Technology Stack
 
-- **Eleventy (11ty)**: A static site generator used to build client-side rendered pages, improving performance and reducing data usage for mobile users.
+- **Eleventy (11ty)**: A static site generator used to build pre-rendered pages, improving performance and reducing data usage for mobile users.
 - **Nunjucks**: Used for templating, enabling efficient and reusable components across pages.
 - **Bootstrap**: Chosen for easy implementation of responsive, accessible UI components and mobile-first design.
 - **JavaScript**: Employed for future dynamic functionality, especially for interactive features like the gene page.
